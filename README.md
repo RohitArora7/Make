@@ -17,3 +17,11 @@ cat -e -t -v  Makefile
 ```bash
 :%s/^[ ]\+/\t/g
 ```
+
+
+
+ERROR
+```bash
+Makefile:2: *** missing separator (did you mean TAB instead of 8 spaces?).  Stop
+Makefile:6: *** missing separator.  Stop.
+
