@@ -5,7 +5,17 @@ touch Makefile
 all:
   echo hello
 ```
+```bash
+all: one two
 
+one:
+        @echo "Hello "
+
+two:
+        @echo "Creating "
+        touch file.txt
+```        
+       
 
 It's show line starting by ^I if TAB is given to that line and it end the line by $
 
